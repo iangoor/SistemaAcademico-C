@@ -3,10 +3,15 @@ Este projeto foi desenvolvido como trabalho acadêmico em dupla para a disciplin
 
 # O que o sistema faz
 ☑ Cadastro de Alunos e Professores (com autoincremento de RA/Matrícula)
+
 ☑ Pesquisa individual ou listagem geral de todos os registros
+
 ☑ Alteração de Nome ou Curso (com validação de opções)
+
 ☑ Exclusão lógica e física (com rearranjo do vetor em memória)
+
 ☑ Alocação dinâmica de memória (realloc) para crescimento sob demanda
+
 ☑ Tratamento de erros e validação de entradas do usuário
 
 # Como rodar o projeto
@@ -27,7 +32,9 @@ gcc -o main main.c Academico.c && ./main
 
 # Tecnologias utilizadas
 Linguagem: C
+
 Bibliotecas: stdio.h, stdlib.h, string.h
+
 Conceitos aplicados: Ponteiros, Estruturas (Structs), Alocação Dinâmica, Manipulação de Strings.
 
 # Sobre a organização do código
@@ -35,7 +42,9 @@ Conceitos aplicados: Ponteiros, Estruturas (Structs), Alocação Dinâmica, Mani
 O projeto está dividido em três arquivos principais:
 
 Academico.h – Contém as definições das structs Aluno e Professor, além dos protótipos das funções.
+
 Academico.c – Implementa todas as funções do sistema (cadastro, pesquisa, alteração, exclusão e menu).
+
 main.c – Arquivo principal que inicializa o sistema e chama o menu recursivo.
 
 # Autores
