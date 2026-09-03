@@ -10,14 +10,17 @@ Este projeto foi desenvolvido como trabalho acadêmico em dupla para a disciplin
 ☑ Tratamento de erros e validação de entradas do usuário
 
 # Como rodar o projeto
-bash
-# Clone o repositório
+
+Clone o repositório
+
 git clone https://github.com/seu-usuario/sistema-academico-c.git
 
-# Acesse o diretório
+Acesse o diretório
+
 cd sistema-academico-c
 
-# Compile e execute
+Compile e execute
+
 gcc -o main main.c Academico.c && ./main
 
 
@@ -27,7 +30,7 @@ Linguagem: C
 Bibliotecas: stdio.h, stdlib.h, string.h
 Conceitos aplicados: Ponteiros, Estruturas (Structs), Alocação Dinâmica, Manipulação de Strings.
 
-#Sobre a organização do código
+# Sobre a organização do código
 
 O projeto está dividido em três arquivos principais:
 
