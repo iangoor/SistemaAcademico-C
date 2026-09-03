@@ -1,4 +1,4 @@
-3# Sistema Acadêmico em C
+## Sistema Acadêmico em C
 Este projeto foi desenvolvido como trabalho acadêmico em dupla para a disciplina de Fundamentos de Programação. O sistema implementa um controle acadêmico com módulos separados para alunos e professores, utilizando alocação dinâmica de memória (malloc e realloc) para suportar o crescimento do número de registros em tempo de execução.
 
 ## Funcionalidades
