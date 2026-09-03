@@ -31,21 +31,21 @@ gcc -o main main.c Academico.c && ./main
 
 
 # Tecnologias utilizadas
-Linguagem: C
+- Linguagem: C
 
-Bibliotecas: stdio.h, stdlib.h, string.h
+- Bibliotecas: stdio.h, stdlib.h, string.h
 
-Conceitos aplicados: Ponteiros, Estruturas (Structs), Alocação Dinâmica, Manipulação de Strings.
+- Conceitos aplicados: Ponteiros, Estruturas (Structs), Alocação Dinâmica, Manipulação de Strings.
 
 # Sobre a organização do código
 
 O projeto está dividido em três arquivos principais:
 
-Academico.h – Contém as definições das structs Aluno e Professor, além dos protótipos das funções.
+- Academico.h – Contém as definições das structs Aluno e Professor, além dos protótipos das funções.
 
-Academico.c – Implementa todas as funções do sistema (cadastro, pesquisa, alteração, exclusão e menu).
+- Academico.c – Implementa todas as funções do sistema (cadastro, pesquisa, alteração, exclusão e menu).
 
-main.c – Arquivo principal que inicializa o sistema e chama o menu recursivo.
+- main.c – Arquivo principal que inicializa o sistema e chama o menu recursivo.
 
 # Autores
 Ian Goor - Módulo dos Professores
